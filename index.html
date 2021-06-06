@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/information.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <link rel="stylesheet" href="css/totop.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_2111878_00pbe82dwc49.css">
+    <title>个人网页</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    
+
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-box">
+            <div class="icon"><a href="#"><i class="icon-logo iconfont icon-it01"></i></a></div>
+            <ul>
+                <li><a href="#">主页</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#experiences">经历</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="carousel">
+        <ul>
+            <li><img src="images/carousel/01.webp" alt="" title="鼠标悬停自动播放会关闭" ></li>
+            <li><img class="center-img" src="images/carousel/02.webp" alt="" title="鼠标悬停自动播放会关闭"></li>
+            <li><img src="images/carousel/03.webp" alt="" title="鼠标悬停自动播放会关闭"></li>
+            <li><img src="images/carousel/04.webp" alt="" title="鼠标悬停自动播放会关闭"></li>
+            <li><img src="images/carousel/05.webp" alt="" title="鼠标悬停自动播放会关闭"></li>
+            <li><img src="images/carousel/06.webp" alt="" title="鼠标悬停自动播放会关闭"></li>
+            <li><img src="images/carousel/07.webp" alt="" title="鼠标悬停自动播放会关闭"></li>
+            <li><img src="images/carousel/08.webp" alt="" title="鼠标悬停自动播放会关闭"></li>
+        </ul>
+    </div>
+    <div class="person">
+        <div class="avatar-box position-box">
+            <img src="images/avatar.jpg" alt="这里有个头像">
+            <p>姓名：王阳</p>
+            <p>求职意向：前端工程师</p>
+        </div>
+        <div class="personal-info container">
+            <div class="left">
+                <p><span>姓名：</span>王阳</p>
+                <p><span>性别：</span>男</p>
+                <p><span>出生日期：</span>99年5月19日</p>
+                <p><span>民族：</span>汉族</p>
+                <p><span>婚姻状况：</span>未婚</p>
+                <p><span>联系方式：</span>180****1720</p>
+            </div>
+            <div class="right">
+                <p><span>年龄：</span>21岁</p>
+                <p><span>毕业学校：</span>淮北师范大学</p>
+                <p><span>专业：</span>计算机科学与技术</p>
+                <p><span>工作经验：</span>无</p>
+                <p><span>个人特长：</span>找bug</p>
+                <p><span>其他技能：</span>擅长office软件、PS、Pr</p>
+            </div>
+            
+        </div>
+        <div class="tool position-box">
+            <p id="data" class="data"></p>
+            <p id="week" class="week"></p>
+            <p id="time" class="time"></p>
+            <!-- <p id="weather">这里是天气</p> -->
+        </div>
+    </div>
+    <div id="skills" class="skills container">
+        <div class="title">技能</div>
+        <div class="content">
+            <div class="skill-box">
+                <div class="skill "><p>html</p></div>
+                <p>90%</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill "><p>css</p></div>
+                <p>80%</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill "><p>javascript</p></div>
+                <p>60%</p>
+            </div>
+        </div>
+    </div>
+    <div id="experiences" class="experiences container">
+        <div class="title">经历</div>
+        <!-- 这里是时间轴 -->
+        <div class="content">
+            <div class="tap-left">
+                <a href="#">
+                    <img src="images/experiences/01.jpg" alt="相关图片">
+                    <div class="info">
+                        <p class="time">2018年5月</p>
+                        <p class="p-content">在安徽省参加炜煌杯(单片机与嵌入式)获得省三等奖</p>
+                    </div>
+                </a>  
+                <a href="#">
+                    <img src="images/experiences/03.jpg" alt="相关图片">
+                    <div class="info">
+                        <p class="time">2018年8月</p>
+                        <p class="p-content">在安徽省参加全国大学生电子设计大赛获得省三等奖</p>
+                    </div>
+                </a>  
+                <a href="#">
+                    <img src="images/experiences/05.jpg" alt="相关图片">
+                    <div class="info">
+                        <p class="time">2019年6月</p>
+                        <p class="p-content">在安徽省参加机械臂挑战赛获得省二等奖</p>
+                    </div>
+                </a> 
+            </div>
+            <div class="tap-right">
+                <a href="#">
+                    <img src="images/experiences/02.jpg" alt="相关图片">
+                    <div class="info">
+                        <p class="time">2018年4月</p>
+                        <p class="p-content">在安徽省参加蓝桥杯单片机组获得省三等奖</p>
+                    </div>
+                </a>  
+                <a href="#">
+                    <img src="images/experiences/04.jpg" alt="相关图片">
+                    <div class="info">
+                        <p class="time">2018年6月</p>
+                        <p class="p-content">在安徽省参加机械臂挑战赛获得省二等奖</p>
+                    </div>
+                </a> 
+                <a href="#">
+                    <img src="images/experiences/06.jpg" alt="相关图片">
+                    <div class="info">
+                        <p class="time">2019年5月</p>
+                        <p class="p-content">在安徽省参加炜煌杯(单片机与嵌入式)获得省三等奖</p>
+                    </div>
+                </a> 
+            </div>
+        </div>
+        
+    </div>
+    <div id="contact" class="contact container">
+        <div class="title">联系我</div>
+        <div class="content">
+            <div class="qq">
+                <i class="iconfont icon-qq"></i>
+                <p>QQ</p>
+                <div class="invisible">
+                    <img src="images/erweima.png" alt="">
+                </div>
+            </div>
+            <div class="wechat">
+                <i class="iconfont icon-weixin"></i>
+                <p>微信</p>
+                <div class="invisible">
+                    <img src="images/erweima.png" alt="">
+                </div>
+            </div>
+            <div class="blog">
+                <i class="iconfont icon-weibo"></i>
+                <p>微博</p>
+                <div class="invisible">
+                    <img src="images/erweima.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="totop">
+        <a href="#">
+            <p><i class="iconfont icon-zhiding"></i></p>
+            <p>置顶</p>
+        </a>
+    </div>
+    <!-- 音乐和小人时间允许可以做 -->
+    <script src="js/carousel.js"></script>
+    <script src="js/totop.js"></script>
+    <script src="js/tool.js"></script>
+
+</body>
+</html>

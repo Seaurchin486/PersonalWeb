@@ -1,0 +1,49 @@
+.carousel{
+    background: #777 url("../images/carousel/bg.png");
+}
+
+.carousel ul li{
+    height: 610px;
+}
+.carousel img{
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    margin-top: 80px;
+    width: 800px;
+    height: 450px;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+
+}
+.carousel img.center-img{
+    z-index: 1;
+    margin-top: 0;
+    width: 1080px;
+    height: 610px;
+    opacity: 1;
+
+}
+.carousel ul{
+    /*margin-left: -390px;*/
+    transition: margin-left 0.5s;
+}
+.carousel ul li img:not(.center-img):hover{
+    z-index: 2;
+    opacity: 1;
+    transform: scale(1.05);
+    transition: transform 0.7s;
+}
+.carousel img.center-img:hover{
+    z-index: 15;
+    border-radius: 10px;
+    transform: scale(1.02);
+    transition: transform 1s;
+    animation: ease-outin 1s;
+}
+@keyframes ease-outin{ 
+	0% {opacity: 1;}
+    33%{opacity: 0.8;}
+    66%{opacity: .9;}
+    100% {opacity: 1;}
+}

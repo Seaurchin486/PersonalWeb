@@ -1,0 +1,76 @@
+.person{
+	margin-top: 15px;
+	position: relative;
+}
+.position-box{
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 10;
+	top: -20px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 8px;
+	box-shadow: 0 0 5px 2px #555;
+}
+.position-box *{
+	margin: 3px;
+}
+.avatar-box{
+	left: 320px;
+}
+.avatar-box p{
+	font-size: 16px;
+	font-weight: bold;
+}
+.tool{
+	right: 320px;
+}
+.tool .data{
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.tool .week{
+	margin-top: 15px;
+	font-size: 22px;
+	font-weight: bold;
+}
+.tool .time{
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.personal-info{
+	box-sizing: border-box;
+	margin: 20px auto 0;
+	background-color: #E8E8E8FF;
+	padding: 0px 100px;
+}
+.personal-info::after{
+	content: "";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
+}
+.personal-info .left{
+	width: 50%;
+	float: left;
+}
+.personal-info .right{
+	width: 50%;
+	float: right;
+}
+.avatar-box img{
+	width: 70%;
+	border-radius: 5px;
+}
+
+.personal-info p{
+	line-height: 30px;
+}
+.personal-info p span{
+	font-weight: bold;
+}
