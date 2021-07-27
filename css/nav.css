@@ -1,4 +1,4 @@
-.nav{
+nav{
     position: relative;
     z-index: 5;
     background-color: rgba(0, 0, 0, .8);
@@ -39,7 +39,7 @@
 .icon{
     margin-left: 15px;
 }
-.nav .nav-box .icon .icon-logo{
+.nav-box .icon .icon-logo{
     font-size: 24px;
     color: white;
     line-height: 40px;
